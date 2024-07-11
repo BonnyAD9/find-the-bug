@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "*.html": "html",
+        "*.h": "c",
+        "*.d": "makefile",
+        "Doxyfile": "shellscript",
+        "text_encoding": "cpp",
+        "*.tcc": "cpp",
+        "stdexcept": "cpp"
+    }
+}
