@@ -24,7 +24,10 @@ class string {
     // Pointer to the string contents. It can be either allocated on heap, or
     // it can point to `_local_data`.
     char *_data;
+    // Length of the string.
     std::size_t _length;
+    // Either the capacity of the string, or flat storage for the string if the
+    // capacity is less than 15 bytes.
     union {
         char _local_data[_LOCAL_DATA_SIZE + 1];
         std::size_t _capacity;
